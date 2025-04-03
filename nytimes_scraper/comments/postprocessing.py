@@ -1,3 +1,6 @@
+# Correct way to import json_normalize in modern pandas (v1.0+)
+from pandas.io.json import json_normalize
+
 from typing import List, Dict
 
 import pandas as pd
